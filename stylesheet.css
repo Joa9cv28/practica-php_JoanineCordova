@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	/*background: url("AmarilloPastel.jpg") no-repeat;*/
+    border: 4px solid white;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+	text-align: center;
+}
+.Espacio{
+	width: 50%;
+	height: 50%;
+}
+h1{
+	color:steelblue;
+	/*font-family: Georgia, serif;*/
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 50px;
+}
+
+h2{
+	color: indianred;
+	/*font-family: Garamond, serif;*/
+	font-size: 40px;
+	font-family: 'Ysabeau SC', sans-serif;
+}
+
+p{
+	font-family: Times New Roman, serif;
+	font-size: 20px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	margin-right: 100px;
+	margin-left: 100px;
+	
+	font-family: 'Varela Round', sans-serif;
+}
+
+a:hover{ 
+	color: darkgrey;
+	font-size: 19px;
+	text-decoration:none;
+	font-family: 'Varela Round', sans-serif;
+} 
+
+a{
+	color: blueviolet;
+	font-size: 17px;
+	text-decoration:none;
+	font-family: 'Varela Round', sans-serif;
+}
+
+ul{
+	font-size: 20px;
+	margin-left: 30%;
+	text-align: left;
+	list-style: circle;
+	list-style-position: inside;
+	font-family: 'Varela Round', sans-serif;
+}
+
+ol{
+	font-size: 20px;
+	margin-left: 30%;
+	text-align:left;
+	list-style: decimal;
+	list-style-position: inside;
+	font-family: 'Varela Round', sans-serif;
+}
+
+table{ 
+	/*border-collapse: collapse;*/ 
+	margin-top: 45px;
+	margin-bottom: 45px;
+	margin-right: 85px;
+	margin-left: 85px;
+	font-size: 1.09em; 
+	min-width: 450px; 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	font-family: 'Varela Round', sans-serif; 
+}
+
+table th { 
+	background-color: lightcoral;
+	color: lavenderblush; 
+	text-align: middle; 
+}
+table th, td { 
+	padding: 12px; 
+}
+ 
+table tbody tr:nth-of-type(even) { 
+	background-color: lavenderblush; 
+}
+
+table tbody tr:nth-of-type(odd) { 
+	background-color:rgb(246, 207, 207); 
+}
+
+.nav{
+	margin-top: 15px;
+}
+
+form{
+	font-family: 'Varela Round', sans-serif; 
+}
